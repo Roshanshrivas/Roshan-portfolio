@@ -1,0 +1,126 @@
+/* Responsive  */
+
+@media screen and (max-width: 991px) {
+  .second_color_box h1 {
+    font-size: 2.2rem;
+    margin-top: 60px;
+  }
+
+  .social_handles {
+    position: relative;
+    top: 50px;
+  }
+
+  .line_main {
+    position: relative;
+    top: 50px;
+  }
+
+  .about_section {
+    position: relative;
+    top: 20px;
+    bottom: 40px;
+  }
+
+  .image_section img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* <----- education_section Media queri ------> */
+
+@media (max-width: 767px) {
+  .wrapper .center-line {
+    left: 40px;
+  }
+
+  .wrapper .row {
+    margin: 30px 0 3px 60px;
+  }
+
+  .wrapper .row section {
+    width: 100%;
+  }
+
+  .row-1 section::before {
+    left: -7px;
+  }
+
+  .row-1 section .icon {
+    left: -60px;
+  }
+}
+
+.hamburger {
+  left: 94%;
+}
+
+@media (max-width: 479px) {
+  .wrapper .center-line,
+  .row section::before,
+  .row section .icon {
+    display: none;
+  }
+
+  .wrapper .row {
+    margin: 10px 0;
+  }
+
+  .main {
+    height: 120vh;
+  }
+
+  .second_color_box p {
+    width: auto;
+    padding: 0px 15px;
+  }
+
+  .social_handles .icon {
+    margin: 0 10px;
+  }
+
+  .social_handles .icon span {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social_handles .icon span i {
+    font-size: 20px;
+    line-height: 41px;
+  }
+
+  .line_main {
+    margin-top: 5%;
+  }
+
+  .line {
+    height: 2px;
+  }
+
+  .dot {
+    width: 9px;
+    height: 9px;
+  }
+
+  .about_section {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .text_section {
+    width: 90%;
+    position: relative;
+    top: 5%;
+    align-items: center;
+  }
+
+  .image_section img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .hamburger {
+    left: 90%;
+  }
+}
